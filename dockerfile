@@ -8,5 +8,5 @@ RUN yum install -y httpd \
  RUN unzip loxury.zip
  RUN cp -rvf loxury/* .
  RUB rm -rf loxury loxury.zip
- CMD ["/usr/bin/httpd","-D", "FOREGROUND"]
+ CMD ["/usr/bin/httpd","-D","FOREGROUND"]
  EXPOSE 80
